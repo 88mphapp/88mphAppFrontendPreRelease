@@ -1,0 +1,33 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+.bg-black{
+    background-color: #100e17
+}
+
+.input-text-lg{
+  font-size: 64px
+}
+//margins
+.mt-n38{
+  margin-top: -3.8rem !important
+}
+
+.animated-background {
+	background: linear-gradient(-45deg, #FAAD14, #F7169C, #3435F5);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

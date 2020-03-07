@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+    "title": "88mph - Earn Upfront Fixed-Rate Interest"
+    })
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <nav class="navbar border-0 bg-black">
+      <div class="container justify-content-between">
+        <!-- Brand -->
+        <a class="align-items-center" href="@@webRoot/index.html">
+          <img class="mb-1 d-none d-lg-inline-block" src="@@webRoot/assets/img/logo.png" alt="88mph" height="64">
+          <img class="mb-1 d-flex d-lg-none" src="@@webRoot/assets/img/logo.png" alt="88mph" height="48">
+        </a>
+        <div class="d-none d-lg-flex">
+          <a class="mr-5 text-white" href="#faq">FAQ</a>
+          <a class="text-white" href="#stats">STATS</a>
+        </div>
+        <button type="button" class="btn btn-outline-white">Connect</button>
+      </div>
+    </nav>
+
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content pt-4 pb-7 bg-black">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6 text-center">
+              <!-- Pretitle -->
+              <h5 class="header-pretitle">
+                Earn <span class="text-white">8.0%</span> Upfront Fixed-Rate Interest
+              </h5>
+
+              <!-- Title -->
+              <h1 class="header-title display-4 text-white mb-4">
+                $2,264.00
+              </h1>
+              <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                <a class="btn btn btn-lg animated-background text-white border-0" data-toggle="modal" data-target="#modalDeposit">Deposit</a>
+                <a class="btn btn-dark text-white" data-toggle="modal" data-target="#modalWithdraw">Withdraw</a>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div><!-- / .main-content -->
+
+    <div class="main-content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+            <div class="card mt-n38">
+              <div class="card-header">
+                <div class="">
+                  <h6 class="text-uppercase text-muted mb-2">
+                    Total deposited
+                  </h6>
+                  <h2 class="mb-0">$2,100.00</h2>
+                </div>
+                <div class="text-right">
+                  <h6 class="text-uppercase text-muted mb-2">
+                    Interest earned
+                  </h6>
+                  <h2 class="text-success mb-0">$164.00</h2>
+                </div>
+
+              </div>
+              <div class="card-body">
+
+                <!-- List group -->
+                <div class="list-group list-group-flush my-n3">
+                  <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDetailTx">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-sm">
+                          <img src="assets/img/DAI_mcd.png" alt="DAI" class="avatar-img rounded">
+                        </div>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-normal mb-1  text-dark">
+                          $1,000.00 DAI
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          at 8.0% fixed APR
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+                        <span class="text-success">$80.00</span>
+                      </div>
+                    </div> <!-- / .row -->
+                  </a>
+                  <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDetailTx">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-sm">
+                          <img src="assets/img/usdc.png" alt="USDC" class="avatar-img rounded">
+                        </div>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-normal mb-1  text-dark">
+                          $100.00 USDC
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          at 4.0% fixed APR
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+                        <span class="text-success">$4.00</span>
+                      </div>
+                    </div> <!-- / .row -->
+                  </a>
+                  <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDetailTx">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-sm">
+                          <img src="assets/img/DAI_mcd.png" alt="DAI" class="avatar-img rounded">
+                        </div>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-normal mb-1 text-dark">
+                          $1,000.00 DAI
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          at 8.0% fixed APR
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+                        <span class="text-success">$80.00</span>
+                      </div>
+                    </div> <!-- / .row -->
+                  </a>
+                </div>
+
+              </div> <!-- / .card-body -->
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+            <div class="header mt-md-5" id="faq">
+              <div class="header-body">
+
+                <!-- Pretitle -->
+                <h1 class="header-pretitle h6">
+                  Getting started
+                </h1>
+
+                <!-- Title -->
+                <h2 class="header-title display-4">
+                  How does 88mph work?
+                </h2>
+
+              </div>
+            </div>
+            <p class="text-danger"> 💀 This project is in beta. Use at your own risk.</p>
+            <div class="header mt-md-5">
+              <div class="header-body">
+
+                <!-- Title -->
+                <h3 class="header-title h1">
+                  1. Deposit
+                </h3>
+
+              </div>
+            </div>
+            <p>Deposit your <a class="text-decoration-underline text-dark" href="https://makerdao.com/en/dai/">DAI</a> or <a class="text-decoration-underline text-dark" href="https://www.coinbase.com/usdc" target="_blank">USDC</a> into the pool. Your deposit is locked in 88mph's pool for a minimum of 90 days. A higher lock period means a bigger amount of upfront fixed-rate interest. You can set up a higher lock period in the deposit modal.</p>
+            <div class="header mt-md-5">
+              <div class="header-body">
+
+                <!-- Title -->
+                <h3 class="header-title h1">
+                  2. Earn <strong class="interest-rate">...%</strong> upfront fixed-rate interest
+                </h3>
+
+              </div>
+            </div>
+            <p>Here's the cool part: You get the interest upfront! It's like your interest is travelling back from the future! While you get your fixed APR instantly, your deposit will generate interests during the lock period for the 88mph's pool at a variable APR on <a class="text-decoration-underline text-dark" href="https://compound.finance/" target="_blank">Compound</a> and <a class="text-decoration-underline text-dark" href="https://aave.com/" target="_blank">Aave</a> protocol.</p>
+            <div class="header mt-md-5">
+              <div class="header-body">
+
+                <!-- Title -->
+                <h3 class="header-title h1">
+                  3. Withdraw
+                </h3>
+
+              </div>
+            </div>
+            <p>When the lock period is over, withdraw your money.</p>
+            <div class="header mt-md-5">
+              <div class="header-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Title -->
+                    <h3 class="header-title h1">
+                      Need more info?
+                    </h3>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <a class="btn btn-outline-primary ml-auto" href="https://twitter.com/88mphapp" target="_blank">Drop us a line</a>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="header mt-md-5" id="stats">
+              <div class="header-body">
+
+                <!-- Title -->
+                <h3 class="header-title h1">
+                  Stats
+                </h3>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="text-uppercase text-muted mb-2">
+                          88mph balance
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          $24,500.00
+                        </span>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="text-uppercase text-muted mb-2">
+                          Total interest earned by 88mph
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          $1,504.00
+                        </span>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="text-uppercase text-muted mb-2">
+                          Total interest earned by lenders
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          $1,500.00
+                        </span>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row align-items-center">
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="text-uppercase text-muted mb-2">
+                          Total lenders
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          15,500
+                        </span>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center mb-4">
+            <!-- Preheading -->
+            <h6 class="text-uppercase text-muted text-center my-4">
+              Stay tuned for new releases.
+            </h6>
+            <form action="https://app.us20.list-manage.com/subscribe/post?u=3691177c244a72d16cb1bd0a7&id=e6b03f428d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate w-100 mb-6" target="_blank" novalidate="">
+              <input style="border-bottom-right-radius: 0; border-bottom-left-radius: 0;" class="form-control form-control-lg mb-0 text-center border-bottom-0 bg-light" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="myemail@address.com" required="">
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3691177c244a72d16cb1bd0a7_e6b03f428d" tabindex="-1" value=""></div>
+              <div class="input-group-append">
+                <button class="btn btn-lg btn-block animated-background text-white border-0 py-3" name="subscribe" id="mc-embedded-subscribe" style="border-top-right-radius: 0; border-top-left-radius: 0;">Update me</button>
+              </div>
+            </form>
+          </div>
+            <div class="text-center mb-4">
+              <a href="https://twitter.com/88mphapp" target="_blank">
+                <i class="fe fe-twitter h1"></i>
+              </a>
+            </div>
+            <div class="text-center text-secondary mb-5">
+              Made by <a class="white-link-underlined" href="https://baconlabs.dev" target="_blank">🥓 Bacon Labs</a> • hello@baconlabs.dev
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>
