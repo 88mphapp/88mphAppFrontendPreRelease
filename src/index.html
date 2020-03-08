@@ -19,10 +19,10 @@
           <img class="mb-1 d-flex d-lg-none" src="@@webRoot/assets/img/logo.png" alt="88mph" height="48">
         </a>
         <div class="d-none d-lg-flex">
-          <a class="mr-5 text-white" href="#faq">FAQ</a>
-          <a class="text-white" href="#stats">STATS</a>
+          <a class="mr-5 text-white" href="#hdiw">How does it work?</a>
+          <a class="text-white" href="#stats">Stats</a>
         </div>
-        <button type="button" class="btn btn-outline-white">Connect</button>
+        <button type="button" class="btn btn-outline-white">Connect wallet</button>
       </div>
     </nav>
 
@@ -36,7 +36,7 @@
           <div class="col-12 col-lg-6 text-center">
               <!-- Pretitle -->
               <h5 class="header-pretitle">
-                Earn <span class="text-white">8.0%</span> Upfront Fixed-Rate Interest
+                Earn <span class="text-white">8.0%</span> Upfront Fixed APY
               </h5>
 
               <!-- Title -->
@@ -79,6 +79,64 @@
 
                 <!-- List group -->
                 <div class="list-group list-group-flush my-n3">
+                  <!-- IDEA: first user's session -->
+                  <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDeposit">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-sm">
+                          <img src="assets/img/DAI_mcd.png" alt="DAI" class="avatar-img rounded">
+                        </div>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-normal mb-1  text-dark">
+                          Deposit DAI
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          and earn <strong>8.0%</strong> upfront fixed APY 🤑
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+                        <span class="fe fe-arrow-right text-dark"></span>
+                      </div>
+                    </div> <!-- / .row -->
+                  </a>
+                  <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDeposit">
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <div class="avatar avatar-sm">
+                          <img src="assets/img/usdc.png" alt="DAI" class="avatar-img rounded">
+                        </div>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h4 class="font-weight-normal mb-1  text-dark">
+                          Deposit USDC
+                        </h4>
+
+                        <!-- Text -->
+                        <small class="text-muted">
+                          and earn <strong>4.0%</strong> upfront fixed APY 🤑
+                        </small>
+
+                      </div>
+                      <div class="col-auto">
+                        <span class="fe fe-arrow-right text-dark"></span>
+                      </div>
+                    </div> <!-- / .row -->
+                  </a>
+                  <!-- IDEA: recurring user -->
                   <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDetailTx">
                     <div class="row align-items-center">
                       <div class="col-auto">
@@ -93,12 +151,12 @@
 
                         <!-- Title -->
                         <h4 class="font-weight-normal mb-1  text-dark">
-                          $1,000.00 DAI
+                          1,000.00 DAI
                         </h4>
 
                         <!-- Text -->
                         <small class="text-muted">
-                          at 8.0% fixed APR
+                          at <strong>8.0%</strong> fixed APY
                         </small>
 
                       </div>
@@ -121,12 +179,12 @@
 
                         <!-- Title -->
                         <h4 class="font-weight-normal mb-1  text-dark">
-                          $100.00 USDC
+                          100.00 USDC
                         </h4>
 
                         <!-- Text -->
                         <small class="text-muted">
-                          at 4.0% fixed APR
+                          at <strong>4.0%</strong> fixed APY
                         </small>
 
                       </div>
@@ -149,33 +207,17 @@
 
                         <!-- Title -->
                         <h4 class="font-weight-normal mb-1 text-dark">
-                          $1,000.00 DAI
+                          1,000.00 DAI
                         </h4>
 
                         <!-- Text -->
                         <small class="text-muted">
-                          at 8.0% fixed APR
+                          at <strong>8.0%</strong> fixed APY
                         </small>
 
                       </div>
                       <div class="col-auto">
                         <span class="text-success">$80.00</span>
-                      </div>
-                    </div> <!-- / .row -->
-                  </a>
-                  <!-- IDEA: if first user's session -->
-                  <a class="list-group-item" href="#" data-toggle="modal" data-target="#modalDeposit">
-                    <div class="row align-items-center">
-                      <div class="col">
-
-                        <!-- Title -->
-                        <h4 class="font-weight-normal mb-1 text-dark">
-                          Deposit to earn your first upfront fixed-rate interest 🤑
-                        </h4>
-
-                      </div>
-                      <div class="col-auto">
-                        <span class="fe fe-chevron-right text-dark"></span>
                       </div>
                     </div> <!-- / .row -->
                   </a>
@@ -187,7 +229,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-lg-6">
-            <div class="header mt-md-5" id="faq">
+            <div class="header mt-md-5" id="hdiw">
               <div class="header-body">
 
                 <!-- Pretitle -->
@@ -213,7 +255,7 @@
 
               </div>
             </div>
-            <p>Deposit your <a class="text-decoration-underline text-dark" href="https://makerdao.com/en/dai/">DAI</a> or <a class="text-decoration-underline text-dark" href="https://www.coinbase.com/usdc" target="_blank">USDC</a> into the pool. Your deposit is locked in 88mph's pool for a minimum of 90 days. A higher lock period means a bigger amount of upfront fixed-rate interest. You can set up a higher lock period in the deposit modal.</p>
+            <p>Connect your <a class="text-decoration-underline text-dark" href="https://ethereum.org/wallets/" target="_blank">Ethereum wallet</a> to 88mph and deposit your <a class="text-decoration-underline text-dark" href="https://makerdao.com/en/dai/" target="_blank">DAI</a> or <a class="text-decoration-underline text-dark" href="https://www.coinbase.com/usdc" target="_blank">USDC</a> into the pool. Your deposit is locked in 88mph's pool for a minimum of 90 days. A higher lock period means a bigger amount of upfront fixed-rate interest. You can set up a higher lock period in the deposit modal.</p>
             <div class="header mt-md-5">
               <div class="header-body">
 
@@ -224,7 +266,8 @@
 
               </div>
             </div>
-            <p>Here's the cool part: You get the interest upfront! It's like your interest is travelling back from the future! While you get your fixed APR instantly, your deposit will generate interests during the lock period for the 88mph's pool at a variable APR on <a class="text-decoration-underline text-dark" href="https://compound.finance/" target="_blank">Compound</a> and <a class="text-decoration-underline text-dark" href="https://aave.com/" target="_blank">Aave</a> protocol.</p>
+            <p>Here's the cool part: You get the interest upfront! It's like your interest is travelling back from the future! While you get your fixed APY instantly, your deposit will generate interests during the lock period for the 88mph's pool at a variable APY on <a class="text-decoration-underline text-dark" href="https://compound.finance/" target="_blank">Compound</a> and <a class="text-decoration-underline text-dark" href="https://aave.com/" target="_blank">Aave</a> protocol, insuring the stability of 88mph's pool.</p>
+            <img class="img-fluid" src="https://media.giphy.com/media/xsF1FSDbjguis/giphy.gif" alt="Back to the future ">
             <div class="header mt-md-5">
               <div class="header-body">
 
@@ -235,7 +278,25 @@
 
               </div>
             </div>
-            <p>When the lock period is over, withdraw your money.</p>
+            <p>When the lock period is over, withdraw your initial deposit. If you deposited 100.00 DAI, yeah, you get back 100.00 DAI.</p>
+            <div class="header mt-md-5">
+              <div class="header-body">
+
+                <!-- Title -->
+                <h3 class="header-title h1">
+                  88mph fees disclosures
+                </h3>
+
+              </div>
+            </div>
+            <p>88mph charges a fee that is either a flat fee or a percentage of the deposit. All fees we charge you will be disclosed at the time of your deposit.</p>
+            <ul>
+              <li>If the total deposit amount is less than or equal to $10, the fee is $0.99</li>
+              <li>If the total deposit amount is more than $10 but less than or equal to $25, the fee is $1.49</li>
+              <li>If the total deposit amount is more than $25 but less than or equal to $50, the fee is $1.99</li>
+              <li>If the total deposit amount is more than $50 but less than or equal to $200, the fee is $2.99</li>
+              <li>If the total deposit amount is more than $200, the fee is 1.49%</li>
+            </ul>
             <div class="header mt-md-5">
               <div class="header-body">
                 <div class="row align-items-center">
